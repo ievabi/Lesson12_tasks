@@ -1,15 +1,16 @@
-body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;    margin: auto;
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
     font-size: 0.8em;
 }
 
-.header-content{
+.header-content {
     display: flex;
     flex-direction: column;
     background-image: url("../images/code.jpg");
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
+    background-attachment: fixed;
     background-attachment: scroll;
     background-position: center;
     height: 30vh;
@@ -19,11 +20,12 @@ body{
     text-align: center;
     color: ivory;
 }
-.p-header{
+
+.p-header {
     padding: 30px 200px;
 }
 
-.btn{
+.btn {
     height: 40px;
     width: 100px;
     color: inherit;
@@ -31,35 +33,39 @@ body{
     border: rgb(158, 158, 157) 1px solid;
     border-radius: 5px;
     align-self: center;
-    }
+}
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-.white{
+
+.white {
     height: 200px;
 }
-.two-col{
+
+.two-col {
     column-count: 2;
     column-gap: 30px;
 }
-.dark{
+
+.dark {
     background-color: rgb(77, 80, 83);
     color: ivory;
     align-items: stretch;
     height: 400px;
 }
-.image-container{
+
+.image-container {
     display: flex;
     justify-content: center;
     text-align: center;
-    align-items:center;
+    align-items: center;
     padding-top: 15px;
-
 }
-.web-container, .mob-container, .tech-container{
+
+.web-container, .mob-container, .tech-container {
     display: flex;
     flex-direction: column;
     background-color: ivory;
@@ -67,54 +73,58 @@ body{
     align-content: flex-start;
     margin: 10px;
     height: 350px;
-
 }
-.web, .mob, .tech{
+
+.web, .mob, .tech {
     width: 200px;
 }
-.p-pad{
+
+.p-pad {
     padding: 10px;
 }
-img{
+
+img {
     max-height: 100px;
     width: auto;
     background-position: center;
     background-size: cover;
     padding-bottom: 20px;
 }
-.white{
+
+.white {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     align-items: stretch;
     text-align: center;
 }
-.bottom-container{
+
+.bottom-container {
     height: 200px;
     display: flex;
     justify-items: space-around;
     align-items: stretch;
     text-align: center;
-
 }
-.left{
 
+.left {
     background-color: rgb(46, 121, 206);
     color: ivory;
     padding: 0 30px;
-
 }
-.right{
+
+.right {
     background-color: rgb(77, 80, 83);
     color: ivory;
     padding: 0 30px;
 }
 
-h3{
+h3 {
     padding-top: 30px;
     padding-bottom: 20px;
 }
-.black{
+
+.black {
     height: 50px;
     background-color: black;
     color: ivory;
@@ -122,6 +132,7 @@ h3{
     justify-content: space-around;
     align-items: center;
 }
-span{
-    color:rgb(9, 110, 204)
+
+span {
+    color: rgb(9, 110, 204)
 }
