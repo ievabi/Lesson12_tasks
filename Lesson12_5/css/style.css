@@ -1,0 +1,52 @@
+html, body {
+  margin: auto;
+  text-align: center;
+  color: rgb(36, 30, 9);
+  
+  }
+
+header{
+    background-image: url("/Users/ievab/Desktop/Projects/JavaScript_SGT/Lesson12/Lesson12_tasks/Lesson12_5/images/seeshell.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-attachment: scroll;
+    background-position: center;
+    height: 100vh;
+    margin:0 auto;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-items: center;
+    justify-content: center; */
+}
+.btn{
+    height: 40px;
+    width: 100px;
+    color: inherit;
+    border: rgb(36, 30, 9) 1px solid;
+    border-radius: 5px;
+    }
+
+    .container{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center; 
+        flex-grow: 1;
+    }
+    
+.row3-container{
+    display: flex;
+    
+}
+.lor:nth-of-type(odd){
+    background-color: rgb(177, 128, 55);
+    color: ivory;
+    padding: 20px;
+    flex-grow: 1;
+}
+.lor:nth-of-type(even){
+    padding: 20px;
+    flex-grow: 1;
+}
