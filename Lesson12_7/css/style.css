@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient( rgba(150, 187, 221, 0.5), rgba(150, 187, 221, 0.5)), url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    color: ivory;
+    font-size: 0.8em;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 0px;
+    font-size: 1.3em;
+}
+
+span {
+    font-size: 0.7em;
+}
+
+.subtitle {
+    font-style: italic;
+    font-size: 0.8em;
+    padding-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(58, 96, 140, 0.7);
+    padding: 20px;
+}
+
+.item {
+    padding-bottom: 10px;
+}
+
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 5px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+    color: #666;
+}
+
+.recommend-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.answer-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.feature,.textarea-container {
+    padding-top: 20px;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+}
